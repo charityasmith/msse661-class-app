@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+		
+		<title>Hello World</title>
+	</head>
+	<body>
+		<h1>Hello World!</h1>
+		<h2>First website assignment for Charity Smith</h2>
+		<h3>MSSE661 Web Software Development</h3>
+		<h3>Regis University</h3>
+		<hr>
+		<h4>List of items I want in a Daily Journal</h4>
+		<ul>
+			<li>Date and Time</li>
+			<li>Journal Entry Space</li>
+			<li>Gratitude</li>
+			<li>Daily Affirmation</li>
+		</ul>
+		<p>Testing <b>bold</b> and <i>italics</i>.</p>
+		<hr>
+		<a href="https://www.w3schools.com/">My Favorite Site for IT Learning</a>
+		<p>Signing off for now.</p>
+		<footer>
+			<p>Copyright 2023 by nobody.</p>
+		</footer>
+	</body>
+	<script>
+		var strings = ["hello", "world"];
+		var newStatement = strings.join(' ');
+		console.log(newStatement);
+
+		var object = {
+			item: "Bag of stuff",
+			stuff: ["Bag one", "Bag two"]
+		}
+
+		function sum(a, b){
+			return a + b;
+		}
+
+		console.log(sum(3, 5));
+
+		var person = {
+			name: "Bob",
+			age: 40,
+			likes: ['pizza', 'music'],
+			doMath: function() {
+				return 'I like math!';
+			}
+		};
+
+		console.log(person.age);
+		console.log(person.doMath());
+
+		var doMathOutput = person.doMath();
+		console.log(doMathOutput);
+
+	</script>
+</html>
